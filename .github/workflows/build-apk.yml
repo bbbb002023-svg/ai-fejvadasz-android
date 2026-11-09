@@ -14,7 +14,7 @@ jobs:
       - name: ZIP kibontasa
         run: |
           mkdir -p project
-          unzip -q AI_Fejvadasz_Android_Projekt.zip -d project
+          unzip -q AI_Fejvadasz_v04_FRISS_PROJEKT.zip -d project
       - name: Java telepitese
         uses: actions/setup-java@v4
         with:

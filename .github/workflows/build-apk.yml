@@ -15,6 +15,7 @@ jobs:
         run: |
           mkdir -p project
           unzip -q AI_Fejvadasz_v082_CV_Keresok_Android_Projekt.zip -d project
+          unzip -oq AI_Fejvadasz_v090_Alkalmazas_Szerver_Frissites.zip -d project
       - name: Java telepitese
         uses: actions/setup-java@v4
         with:

@@ -20,6 +20,8 @@ jobs:
           unzip -oq AI_Fejvadasz_v095_Regio_Megye_Cimke_Javitas.zip -d project
           unzip -oq AI_Fejvadasz_096_Javitas.zip -d project
           node project/apply-v096-android.js
+                    unzip -oq AI_Fejvadasz_v097_CV_Tobbnyelvu_Gyorsitas.zip -d project
+          node project/apply-v097-android.js
       - name: Java telepitese
         uses: actions/setup-java@v4
         with:
